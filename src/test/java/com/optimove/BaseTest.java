@@ -2,12 +2,11 @@ package com.optimove;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 
-public class BaseTest {
+abstract public class BaseTest {
 
     @BeforeTest
     public void setUp() {
